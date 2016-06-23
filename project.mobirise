@@ -1,0 +1,907 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.11.1",
+    "versionPublish": "2.11.1",
+    "name": "My Site",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise"
+    },
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/simji/workingsite",
+    "favicon": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "google-analytics": "<script>\r\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\r\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\r\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\r\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\r\n\r\n  ga('create', 'UA-79020411-1', 'auto');\r\n  ga('send', 'pageview');\r\n\r\n</script>"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "TLOG",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/black-dotted-background-851x532-43.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/ADF5KLGCCW0?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "right",
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "WELCOME",
+          "text": "Hello and welcome to tlog if you want to know more about this website please click on <a href=\"about.html\">ABOUT</a>.",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        }
+      ]
+    },
+    "about.html": {
+      "settings": {
+        "title": "about",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-5",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-6",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/black-dotted-background-851x532-43.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/ADF5KLGCCW0?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "right",
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "HI AND WELCOME TO TLOG",
+          "text": "WELCOME TO TLOG THE TECH BLOG WHERE I HAVE GONE TO THE DUTY TO MAKE THIS WEBSITE TO PRODUCE BLOGS ABOUT TECHNOLOGICAL ADVANCES OUR SOCIETY GOES THROUGH.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a> "
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        }
+      ]
+    },
+    "reviews.html": {
+      "settings": {
+        "title": "about",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-11",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-12",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/black-dotted-background-851x532-43.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/ADF5KLGCCW0?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "right",
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "REVIEWS",
+          "text": "Here you can see the reviews of many technological advances in our world, from the biggest of vehicles to the smallest of watches.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-13",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-18",
+          "title": "<a href=\"TECHREVIEW-astonmartindb10.html\">TECH REVIEW - ASTON MARTIN DB10</a>",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Posted June 9, 2015"
+        }
+      ]
+    },
+    "top10.html": {
+      "settings": {
+        "title": "about",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-14",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-15",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/black-dotted-background-851x532-43.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/ADF5KLGCCW0?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "right",
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "TOP10's",
+          "text": "THIS IS TOP10, WHERE I LIST TOP10's OF CARS, PHONES, AEROPLANES, MILLIONAIRES AND ETC. THIS CAN BE TOP10 &nbsp;BEST SELLING TO TOP10 FASTEST.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-22",
+          "title": "<a href=\"top10fastcars.html\">TOP10 - FASTEST CARS IN THE WORLD</a>",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "<a href=\"top10fastcars.html\">Posted June 10, 2016</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-16",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "about",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-17",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-22",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-23",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "CONTACT FORM",
+          "form": {
+            "action": "simjimmichan@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">CONTACT US</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-19",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        }
+      ]
+    },
+    "TECHREVIEW-astonmartindb10.html": {
+      "settings": {
+        "title": "about",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-16",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-18",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "color": "#252525"
+            }
+          },
+          "_anchor": "header3-22",
+          "title": "ASTON MARTIN DB10",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Posted June 9, 2016<br>"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-23",
+          "text": "<p>The absolutely stunning and unique DB10 was created for the latest Bond movie, Spectre. The DB10 is the work of Aston Martin’s design virtuoso Marek Reichman. Though initially Bond was going to drive the next-generation DB9, Spectre director Sam Mendes thought the spy deserved something sportier than a GT car – and something even more unique.&nbsp;</p><p>Apparently, Mendes spotted a sketch of a DB10 on the wall at Aston’s design studio, and convinced them to build it for his film. Within five months, the first carbon fibre panels were sprayed with special satin grey paint and placed on top of a longer, wider version of the V8 Vantage chassis. Being a prototype, the DB10 has absolutely no soundproofing, so the noise from the 4.2-litre V8 reverberates around the cabin, Bond will claim his car can do 0-60mph in 3.1 seconds – but while the DB10 feels quick, it’s not that quick. In fact, it uses the 430bhp unit from the Vantage S, so 4.8 seconds is more accurate.&nbsp;</p><h3>What does the DB10 mean for Aston Martin?</h3><p>The DB10 is more than just a slinky piece of metal for the bright lights and big screens of Hollywood. It’s the first Aston Martin in 11 years to showcase a brand new design language, hinting at the next-generation of Aston Martins we could begin to see as early as next year in the DB11.&nbsp;</p>"
+        },
+        {
+          "_name": "image2",
+          "_styles": {
+            "SMALL": {
+              "font-size": "8px",
+              "color": "#7c706b"
+            }
+          },
+          "_anchor": "image2-24",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "src": "images/slide3.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "https://www.youtube.com/watch?v=oSJ8ryVlM8A",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on",
+              "active": true
+            }
+          },
+          "text": "ALL CREDITS OF THIS VIDEO GO TO ASTON MARTIN UK"
+        }
+      ]
+    },
+    "top10fastcars.html": {
+      "settings": {
+        "title": "top10",
+        "meta_descr": "the tech blog",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#000000"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
+          "_anchor": "menu-23",
+          "_params": {
+            "color": "#ffffff",
+            "hamburgerColor": "#000000",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/drawing.gif",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "active": true,
+              "link": "index.html",
+              "alt": "logo",
+              "title": "TLOG",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">The Tech Blog</a>",
+          "items": "     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"about.html\">ABOUT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"reviews.html\">REVIEWS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"top10.html\">TOP10</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"contact.html\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-24",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 TLOG : SIMON JIMMICHAN"
+        },
+        {
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "color": "#252525"
+            }
+          },
+          "_anchor": "header3-25",
+          "title": "TOP10-FASTEST CARS",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "Posted June 10, 2016<br>"
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-30",
+          "text": "<p><br></p><p><b>10. Pagani Huayra: 230 mph (370 km/h)</b></p><p>Pagani Huayra  introduced in 2011 the italian-made began a higher a is powered by a six liter v12 engine from rcedes AMG this seven-speed 720 horsepower beast may be the slowest on the list but with a top speed of 230 miles per hour.&nbsp;</p><p><span style=\"font-size: 17px;\"><b>9. Zenvo ST1: 233 mph (374 km/h)</b></span></p><p><span style=\"font-size: 17px;\">For your money you get a twin charge seven liter v8 engine the key to help 1,250 horsepower</span></p><p><span style=\"font-size: 17px;\">giving this top speed of 233 miles per hour.</span></p><p><b>8. McLaren F1: 240 mph (386 km/h)</b></p><p>The first discover twentieth century demand planner f1 is still there eighth fastest car in the world more than twenty years after its introduction have BMW source 6.1 liter v12 engine allows this machine to reach 240 miles per hour.</p><p><span style=\"font-size: 17px;\"><b>7. Koenigsegg CCX: 245 mph (394 km/h)</b></span></p><p><span style=\"font-size: 17px;\">Swedish company factories Koenigsegg the CCX is almost entirely made of  carbon fiber. A v8 engine 806 horse power gives the CCX a top speed 245 miles per hour it is also the cheapest car on the list.</span></p><p><span style=\"font-size: 17px;\"><b>6. Saleen S7 Twin-Turbo: 248 mph (399 km/h)</b></span></p><p><span style=\"font-size: 17px;\">The California made silliness 7  twin turbos with the quickest cars in the top 10. The 7 litre the engine getting not to 60 in 2.8 seconds.</span></p><p><b>5. 9ff GT9-R: 257 mph (413 km/h)</b></p><p>Essentially a reconfigured Porsche 911 the catchy title 9ff GT 9 is powered only by a flat 620 engine only twenty were made. The price tag buys you 1,120 horsepower and can reach speeds 257 miles per hour.</p><p><b>4. SSC Ultimate Aero: 257 mph (413 km/h)</b></p><p>Built by the washington-based Shelby supercars the ultimate aero was once the fastest in the world. Its supercharged twin turbo v8 engine makes a row. The same conflicts todays game, 0 to 60 in 2.7 seconds top speed 257 miles per hour.</p><p><span style=\"font-size: 17px;\"><b>3. Koenigsegg Agera R: 260 mph (418 km/h)</b></span></p><p><span style=\"font-size: 17px;\">The second car to make an appearance in this top 10 from koenigsegg then again it's 5 liter twin-turbo v8 may not make it the most powerful here but combined with this lightweight hyper car 1099 horsepower gives it a top speed of 260&nbsp;</span>miles per hour.</p><p><b>2. Bugatti Veyron SS: 268 mph (431 km/h)</b></p><p>The Bugatti Veyron Super Sport narrow angle w16 engine with 1200 horsepower will move you from 0 to 60 in just 2.4 seconds. By far the most expensive car here if you wanna Hypercar that can reach 268 miles per hour.</p><div><span style=\"font-size: 17px;\"><b>1. Hennessey Venom GT: 270 mph (435 km/h)</b></span></div><div><span style=\"font-size: 17px;\">&nbsp;270 mph (435 km/h), 0-60 mph in 2.5 seconds, has a 7.0 liter LS7 Turbocharged Twin Turbo V8 Engine producing 1244 hp. The Venom GT is the fastest car in the world when tested again on February 14th, 2016 at NASA runway in Florida. The track was only 3.22 miles long, thus limiting it top speed to 270 mph</span></div><div><br></div><p></p>",
+          "_styles": {
+            "SPAN": {
+              "font-size": "14px"
+            },
+            "H3": {
+              "font-size": "19px"
+            },
+            "P": {
+              "color": "#000000"
+            },
+            "DIV": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "images": [
+              {
+                "caption": "10. Pagani Huayra",
+                "thumb": "@PROJECT_PATH@/assets/images/paganihurr-550x340-14-550x340-37.jpg",
+                "image": "@PROJECT_PATH@/assets/images/paganihurr-550x340-14.jpg",
+                "active": false
+              },
+              {
+                "caption": "9. Zenvo ST1",
+                "thumb": "@PROJECT_PATH@/assets/images/zenvo-st1-660x371-660x371-97-660x371-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zenvo-st1-660x371-660x371-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "8. Mclaren F1",
+                "thumb": "@PROJECT_PATH@/assets/images/autowp-1024x768-1-1024x768-97.jpg",
+                "image": "@PROJECT_PATH@/assets/images/autowp-1024x768-1.jpg",
+                "active": false
+              },
+              {
+                "caption": "7. Koenigsegg CCX",
+                "thumb": "@PROJECT_PATH@/assets/images/koenigsegg-ccx-1500x1000-1500x1000-27-1500x1000-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/koenigsegg-ccx-1500x1000-1500x1000-27.jpg",
+                "active": false
+              },
+              {
+                "caption": "5. Saleen S7 Twin Turbo",
+                "thumb": "@PROJECT_PATH@/assets/images/saleen-s7-twin-turbo-2005-1280x960-wallpaper-05-1280x960-41-1280x960-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/saleen-s7-twin-turbo-2005-1280x960-wallpaper-05-1280x960-41.jpg",
+                "active": false
+              },
+              {
+                "caption": "6. 9ff GT9-R",
+                "thumb": "@PROJECT_PATH@/assets/images/porsche-9ff-gt9-r-1-1920x1200-12-1920x1200-45.jpg",
+                "image": "@PROJECT_PATH@/assets/images/porsche-9ff-gt9-r-1-1920x1200-12.jpg",
+                "active": true
+              },
+              {
+                "caption": "3. SSC Ultimate Aero",
+                "thumb": "@PROJECT_PATH@/assets/images/last-ssc-ultimate-ae-800x0w-799x453-43-799x453-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/last-ssc-ultimate-ae-800x0w-799x453-43.jpg",
+                "active": false
+              },
+              {
+                "caption": "4. Koenigsegg Agera R",
+                "thumb": "@PROJECT_PATH@/assets/images/koenigsegg-agera-r-2000x1333-85-2000x1333-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/koenigsegg-agera-r-2000x1333-85.jpg",
+                "active": false
+              },
+              {
+                "caption": "2. Bugatti Veyron SS",
+                "thumb": "@PROJECT_PATH@/assets/images/bug-super-sport-02-1560x940-3-1560x940-30.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bug-super-sport-02-1560x940-3.jpg",
+                "active": false
+              },
+              {
+                "caption": "1. Hennessy Venom GT",
+                "thumb": "@PROJECT_PATH@/assets/images/maxresdefault-1920x1080-30-1920x1080-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/maxresdefault-1920x1080-30.jpg",
+                "active": false
+              }
+            ],
+            "showText": true,
+            "bgColor": "#ffffff",
+            "fullWidth": true,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-40",
+          "articleLayout": false
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-26",
+          "text": "<div></div>"
+        }
+      ]
+    },
+    "privacy.html": {
+      "settings": {
+        "title": "cookiepolicy"
+      },
+      "components": [
+        {
+          "_name": "content1",
+          "_anchor": "content1-32",
+          "text": "<h1><b>Cookie Policy for mytlog</b></h1><p><br></p><p>What Are Cookies</p><p><br></p><p>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality.</p><p><br></p><p>For more general information on cookies see the Wikipedia article on HTTP Cookies...</p><p><br></p><p>How We Use Cookies</p><p><br></p><p>We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.</p><p><br></p><p>Disabling Cookies</p><p><br></p><p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.</p><p><br></p><p>The Cookies We Set</p><p><br></p><p><br></p><p><br></p><p>From time to time we offer user surveys and questionnaires to provide you with interesting insights, helpful tools, or to understand our user base more accurately. These surveys may use cookies to remember who has already taken part in a survey or to provide you with accurate results after you change pages.</p><p><br></p><p>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</p><p><br></p><p>In order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.</p><p><br></p><p><br></p><p><br></p><p>Third Party Cookies</p><p><br></p><p>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.</p><p><br></p><p>This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.</p><p><br></p><p>For more information on Google Analytics cookies, see the official Google Analytics page.</p><p><br></p><p>We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; google+, twitter, facebook, will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.</p><p><br></p><p><br></p><p><br></p><p>More Information</p><p><br></p><p>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site. However if you are still looking for more information then you can contact us through one of our preferred contact methods.</p><p><br></p><p>Email: simjimmichan@gmail.com</p>"
+        }
+      ]
+    }
+  }
+}
