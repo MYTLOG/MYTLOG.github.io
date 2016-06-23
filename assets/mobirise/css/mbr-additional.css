@@ -84,3 +84,31 @@
   font-size: 8px;
   color: #7c706b;
 }
+
+#menu-23 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-23.mbr-navbar--stuck .mbr-navbar__section {
+  background: #ffffff;
+}
+#menu-23 .mbr-navbar__hamburger {
+  color: #000000;
+}
+#menu-23 .mbr-brand__name a {
+  font-family: 'Oswald', sans-serif;
+}
+#header3-25 H3 {
+  color: #252525;
+}
+#content1-30 SPAN {
+  font-size: 14px;
+}
+#content1-30 H3 {
+  font-size: 19px;
+}
+#content1-30 P {
+  color: #000000;
+}
+#content1-30 DIV {
+  color: #000000;
+}
